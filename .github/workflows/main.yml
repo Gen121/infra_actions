@@ -28,7 +28,7 @@ jobs:
           cd infra_project/
           python manage.py test
 
-  builbuild_and_push_to_docker_hubd:
+  build_and_push_to_docker_hubd:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
     needs: teests
