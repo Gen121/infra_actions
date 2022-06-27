@@ -51,11 +51,6 @@ jobs:
         push: true
         tags: gen121/docker_repo:latest
 
-      run: |
-        docker build .
-        image ls
-        docker run -p 5000:5000 <IMAGE ID>
-
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
