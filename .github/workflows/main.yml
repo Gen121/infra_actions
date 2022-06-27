@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 env:
-  DOCKER_USERNAME
+  "DOCKER_USERNAME"
 
 jobs:
   tests:
