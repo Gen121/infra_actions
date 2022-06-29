@@ -138,3 +138,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Self dev tools
+folderico-*.ico
+desktop.ini
