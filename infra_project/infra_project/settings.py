@@ -30,7 +30,7 @@ SECRET_KEY = env('SECRET_KEY', default='you-shall-not-pass')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [env('ALLOWED_HOSTS', default='*'), ]  # may be it should be in .env file?
+ALLOWED_HOSTS = [env('ALLOWED_HOST', default='*'), ]  # may be it should be in .env file?
 
 
 # Application definition
