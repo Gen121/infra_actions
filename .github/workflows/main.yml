@@ -63,7 +63,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
-          sudo docker pull gen121/docker_test
+          sudo docker pull gen121/docker_repo:latest
           sudo docker stop $(sudo docker ps -a -q)
           touch .env
           echo SECRET_KEY=${{ secrets.SECRET_KEY }} >> .env
